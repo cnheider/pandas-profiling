@@ -1,6 +1,6 @@
 repos:
 -   repo: https://github.com/psf/black
-    rev: 20.8b1
+    rev: 21.4b0
     hooks:
     - id: black
       language_version: python3.8
@@ -17,7 +17,7 @@ repos:
       additional_dependencies: [ pyupgrade==2.7.3 ]
       args: [ --nbqa-mutate, --py36-plus ]
 -   repo: https://github.com/asottile/pyupgrade
-    rev: v2.12.0
+    rev: v2.13.0
     hooks:
     -   id: pyupgrade
         args: ['--py36-plus','--exit-zero-even-if-changed']
